@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    margin-top: 20px;
+    border-bottom: 1px dashed silver;
+
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.desc p {
+    margin: 20px 10px;
+}
+.desc h4 {
+    margin: 20px 10px;
+}

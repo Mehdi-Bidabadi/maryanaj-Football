@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: #519006;
+    margin: 50px auto 50px auto;
+
+}
+.container h4{
+    margin:10px  auto;
+    
+}
+.container form {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin:20px  auto;
+}
+
+.container form button {
+    width: 100px;
+    margin: auto;
+    font-weight: 700;
+    border: none;
+    padding: 2px;
+    border-radius: 5px;
+}
+.container form label{
+    color: #fff;
+}
+.container form input{
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}

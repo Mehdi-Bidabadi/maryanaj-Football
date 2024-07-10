@@ -1,0 +1,38 @@
+.container{
+    width: 70%;
+    background-color: #F5F8F9;
+    border-bottom: 1px dashed silver;
+    margin: 20px auto;
+}
+.container h5{
+    padding: 10px;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.desc{
+    margin: 20px;
+}
+.delete button{
+    background-color: #a71407;
+    color: #fff;
+    border: 1px solid rgb(146, 3, 3);
+    padding: 5px;
+    font-weight: 900;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px;
+}
+.delete button:hover{
+    opacity: 0.8;
+}
+
+.delete .edit{
+    background-color: #029911;
+    border: 1px solid #029911;
+    margin-right: 4px;
+
+}

@@ -1,0 +1,52 @@
+.container{
+    background-color: #519006;
+    width: 100%;
+}
+
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+}
+.register{
+    display: flex;
+    align-items: center;
+}
+.register div{
+    margin-right: 20px;
+}
+
+.list ul{
+    display: none;
+    
+    
+}
+
+.list ul li {
+    margin: 20px 10px 10px 10px;
+    list-style: none;
+    
+}
+
+.menu span{
+    width: 40px;
+    height: 5px;
+    display: block;
+    background-color: black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px){
+    .menu span{
+        display: none;
+    }
+    .list ul {
+        display: flex;
+    }
+}
+

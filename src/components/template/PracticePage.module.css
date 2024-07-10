@@ -1,0 +1,25 @@
+.container{
+    width: 80%;
+    margin: 20px auto;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: #EBEDEE;
+    padding: 5px;
+    margin: 20px auto;
+}
+.datepicker{
+    padding: 5px;
+    width: 100%;
+}
+
+.form input{
+    padding: 5px;
+}
+.form button{
+    width: 80px;
+    margin: 20px auto;
+
+}
