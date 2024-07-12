@@ -1,17 +1,16 @@
-"use client"
+
 import ProfilePage from '@/components/template/ProfilePage';
 import images from '@/constants/DataImg';
-import { useParams } from 'next/navigation';
 
-function page() {
+function page(props) {
+  const {params} = props;
 
-  const { profileId } = useParams()
 
-  const profile = images.filter((i) => i.userId === profileId)
-  console.log(profileId)
+  const profile = images.filter((i) => i.userId === params.profileId)
+  console.log(props)
 
   return (
-    <ProfilePage data={profile}/>
+    <ProfilePage  data={profile} />
   )
 }
 

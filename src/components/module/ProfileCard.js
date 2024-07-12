@@ -8,7 +8,7 @@ function ProfileCard({ data }) {
     return (
         <>
             <div className={styles.profile}>
-                <Image className={styles.img} src={img} width={150} height={150} />
+                <Image className={styles.img} src={img} width={150} height={150} alt="img" />
                 <hr />
             </div>
             <div className={styles.detalies}>

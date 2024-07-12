@@ -18,7 +18,6 @@ function PracticePage() {
     fetch("api/practice")
     .then((res) => res.json())
     .then((x) => setData(x))
-    console.log(data)
   },[])
 
 

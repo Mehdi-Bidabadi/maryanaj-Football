@@ -2,7 +2,7 @@
 import ProfileCard from "../module/ProfileCard"
 
 
-async function ProfilePage({data}) {
+ function ProfilePage({data}) {
  
   return (
     <div>
