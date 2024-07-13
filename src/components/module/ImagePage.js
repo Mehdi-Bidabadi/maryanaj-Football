@@ -23,10 +23,10 @@ function ImagePage() {
 
           <li><Link href="/practice-date">برنامه تمرین</Link></li>
           <li><Link href="/">برنامه مسابقه</Link></li>
-          <Link href="/list/weekly-schedule"><li>برنامه هفتگی <RiMiniProgramLine /></li></Link>
-          <li> <Link href="/diet">رژیم غذایی<MdFoodBank />
-          </Link>
-          </li>
+          <li><Link href="/list/weekly-schedule">برنامه هفتگی <RiMiniProgramLine /></Link></li>
+          
+          <li><Link href="/diet">رژیم غذایی<MdFoodBank /></Link></li>
+        
           <li>تمرینات انفرادی <CgGym /></li>
           <li><Link href="/halls">سالن استخر و فوتسال</Link></li>
           <li>سالن بدنسازی <IoIosFitness /></li>

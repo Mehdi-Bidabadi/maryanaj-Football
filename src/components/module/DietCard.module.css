@@ -16,13 +16,13 @@
 }
 .date p{
     background-color: #519006;
-    width: 20%;
+    width: 40%;
     text-align: center;
     color: #fff;
 }
 .date span{
     background-color: #519006;
-    width: 20%;
+    width: 30%;
     text-align: center;
     padding-top: 3px;
     color: #fff;
@@ -55,4 +55,10 @@
     border: 1px solid #029911;
     margin-right: 4px;
 
+}
+
+@media (max-width: 420px){
+    .date {
+        font-size: 12px;
+    }
 }

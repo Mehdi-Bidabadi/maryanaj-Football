@@ -12,6 +12,18 @@
     justify-content: space-between;
     margin: 20px;
 }
+.date p{
+    background-color: #d3d6d3;
+    padding: 3px;
+    width: 45%;
+}
+.date span{
+    background-color: #d3d6d3;
+    padding: 3px;
+    width: 40%;
+    text-align: center;
+
+}
 .desc{
     margin: 20px;
 }
@@ -35,4 +47,10 @@
     border: 1px solid #029911;
     margin-right: 4px;
 
+}
+
+@media (max-width: 420px){
+    .date {
+        font-size: 10px;
+    }
 }

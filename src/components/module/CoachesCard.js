@@ -4,7 +4,7 @@ import Image from "next/image";
 function CoachesCard({data}) {
   return (
     <div className={styles.container}>
-        <Image src={data.image} width={200} height={200} alt="img" />
+        <Image className={styles.img} src={data.image} width={200} height={150} alt="img" />
         <div className={styles.desc}>
             <h4>نام و نام خانوادگی :{data.name}</h4>
             <p>سن:{data.age}</p>

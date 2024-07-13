@@ -16,7 +16,8 @@
 }
 .date p{
     background-color: #519006;
-    width: 20%;
+    max-width: 40%;
+    padding: 5px;
     text-align: center;
     color: #fff;
 }
@@ -55,4 +56,10 @@
     border: 1px solid #029911;
     margin-right: 4px;
 
+}
+
+@media (max-width: 420px){
+    .date p {
+        font-size: 70%;
+    }
 }
