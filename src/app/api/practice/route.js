@@ -1,14 +1,19 @@
 import Program from "@/models/Program";
 import connectDB from "@/utils/connectDB";
+import { getServerSession } from "next-auth";
 import { NextResponse } from "next/server";
+import { authOptions } from "../auth/[...nextauth]/route";
 
 
-export async function GET(){
+export async function GET(req){
     try{
         await connectDB();
 
+        const session = await getServerSession(authOptions)
+        console.log(session,"mehdi")
+
         const newPractice = await Program.find({published: true})
-        console.log(newPractice)
+        
 
         return NextResponse.json({data: newPractice},{status: 200})
     }catch(err){
